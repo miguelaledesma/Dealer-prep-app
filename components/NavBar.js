@@ -22,7 +22,7 @@ display: none;
   span {
     height: 2px;
     width: 25px;
-    background: #7b7fda;
+    background: white;
     margin-bottom: 4px;
     border-radius: 5px;
   }
@@ -45,15 +45,15 @@ align-items: center;
 `
 
 const MenuLink = styled.a `
-padding: 1rem 2rem;
+padding: 0.5rem 1rem;
 cursor: pointer
 text-align: center;
 text-decoration: none;
 color: white;
 transition: all 0.3s ease-in;
-font-size: 0.9rem;
+font-size: 1.1rem;
 &:hover {
-  color: #7b7fda;
+  color: lightblue;
 }
 `
 

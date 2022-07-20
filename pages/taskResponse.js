@@ -22,9 +22,7 @@ export default function Task() {
         <Card.Body>
           
             <Text h6 size={15} color="white" css={{ m: 0 }}>
-              NextUI gives you the best developer experience with all the features
-              you need for building beautiful and modern websites and
-              applications.
+            Analyze sales inquiries to help spot trends in needs
             </Text>
           
         </Card.Body>
@@ -32,30 +30,26 @@ export default function Task() {
     </Container>
       </div> 
 
-      <div style ={{marginTop: '5rem'}}> 
+      <div style ={{marginTop: '2rem'}}> 
       <Container>
       <Card style = {{backgroundColor: 'black'}}>
         <Card.Body>
           
             <Text h6 size={15} color="white" css={{ m: 0 }}>
-              NextUI gives you the best developer experience with all the features
-              you need for building beautiful and modern websites and
-              applications.
+            Create queries to look at a prospect's typical Vercel usage
             </Text>
           
         </Card.Body>
       </Card>
     </Container>
       </div> 
-      <div style ={{marginTop: '5rem'}}> 
+      <div style ={{marginTop: '2rem'}}> 
       <Container>
       <Card style = {{backgroundColor: 'black'}}>
         <Card.Body>
           
             <Text h6 size={15} color="white" css={{ m: 0 }}>
-              NextUI gives you the best developer experience with all the features
-              you need for building beautiful and modern websites and
-              applications.
+            Hop on a Zoom call to do a product demo
             </Text>
           
         </Card.Body>
@@ -63,15 +57,13 @@ export default function Task() {
     </Container>
       </div> 
 
-      <div style ={{marginTop: '5rem'}}> 
+      <div style ={{marginTop: '2rem'}}> 
       <Container>
       <Card style = {{backgroundColor: 'black'}}>
         <Card.Body>
           
             <Text h6 size={15} color="white" css={{ m: 0 }}>
-              NextUI gives you the best developer experience with all the features
-              you need for building beautiful and modern websites and
-              applications.
+            Empathize with customers and find ways to continually improve the day-to-day workflow for converting leads
             </Text>
           
         </Card.Body>

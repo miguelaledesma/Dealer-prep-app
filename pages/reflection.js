@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-
+import { Card, Grid, Text, Button, Row, Divider } from "@nextui-org/react";
 
 
 export default function Reflection() {
@@ -13,7 +13,62 @@ export default function Reflection() {
       </Head>
 
       
-      <h1>Reflections</h1>
+      <h1 style ={{ marginTop: '1rem', marginLeft: '1rem'}}>Reflection on Past Experience: </h1>
+
+      <Grid.Container gap={2}>
+      <Grid sm={12} md={5}>
+        <Card >
+          <Card.Header>
+            <Text b>What I am looking to learn more of: </Text>
+          </Card.Header>
+          <Card.Divider />
+          <Card.Body css={{ py: "$10" }}>
+            <Text>
+            I am eager to continue improving my engineering skills to become a well-rounded software engineer and combine that with my background in sales to be 
+            a valuable addition to the team at Vercel. 
+            </Text>
+            <Text style = {{marginTop: '1rem'}}>
+              I want to be able to be more hands on the technical side of this role and be able to present products to prospects and help onboard them once they become paying clients. 
+            </Text>
+          </Card.Body>
+          <Card.Divider />
+          <Card.Footer>
+            
+          </Card.Footer>
+        </Card>
+      </Grid>
+      <Grid sm={12} md={5}>
+        <Card >
+          <Card.Header>
+            <Text b>Biggest Impression: </Text>
+          </Card.Header>
+          <Card.Divider />
+          <Card.Body css={{ py: "$10" }}>
+            <Text>
+              I do not have a sales article, guide or lighting talk that really left a huge impression on me.
+              There are two books that really helped me floursih in my sales career: 
+              The Four Agreements by Don Miguel Ruiz and Selling 101 by Zig Ziglar  
+            </Text>
+            <Divider/> 
+            <Text style = {{marginTop: '1rem'}}>
+              These books really helped me gain the confidence I needed early in my sales career to grow into the Professional, well-rounded salesperson I am today. The Four Agreements taught me 
+              how to to not take things personally, being confident and impeccable with my word and always striving to do my best. 
+            </Text>
+
+            <Divider/> 
+            <Text style = {{marginTop: '1rem'}}>
+            I was inspired by Selling 101 to consider every prospective customer as a stage. If a prospect found my presentation amazing, the possibility of converting a prospect to 
+            a client would significatly rise. This book taught me the importance of actively listening to prospects and how to prepare my mind to envision the result I wanted from 
+            my sales presentations. 
+            </Text>
+          </Card.Body>
+          <Card.Divider />
+          <Card.Footer>
+            
+          </Card.Footer>
+        </Card>
+      </Grid>
+    </Grid.Container>
     </div>
   )
 }
