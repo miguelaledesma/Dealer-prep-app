@@ -4,6 +4,15 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
+  redirects: async()=>{
+    return [
+      {
+        source: '/contact', 
+        destination: 'https://vercel.com/hello-vercel', 
+        permanent: true,
+      }
+    ]
+  }
 }
 
 module.exports = nextConfig
