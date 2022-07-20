@@ -36,7 +36,7 @@ export default function Task() {
         <Card.Body>
           
             <Text h6 size={15} color="white" css={{ m: 0 }}>
-            Create queries to look at a prospect's typical Vercel usage
+            Create queries to look at a prospects typical Vercel usage
             </Text>
           
         </Card.Body>
