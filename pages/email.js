@@ -18,7 +18,7 @@ export default function Email() {
       <Card style ={{ marginTop: '1rem'}} css={{ p: "$2",m : "$2 ", mw: "600px" }}>
       <Card.Header>
         <img
-          alt="nextui logo"
+          alt="googlelogo"
           src="https://img.icons8.com/office/344/google-logo.png"
           width="34px"
           height="34px"

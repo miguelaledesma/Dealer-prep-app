@@ -47,12 +47,12 @@ export default function Recommendation() {
           <Card.Divider />
           <Card.Body css={{ py: "$10" }}>
             <Text>
-              If your company is looking for quick turnaround to create a beautiful marketing landing page, Vercel's templates are perfect for bringing this to life. 
+              If your company is looking for quick turnaround to create a beautiful marketing landing page, Vercels templates are perfect for bringing this to life. 
 
             </Text>
 
             <Text style = {{marginTop: '1rem'}}>
-            Vercel's templates are ready to deploy immediately with the latest version dependencies. Your frontend team can have a amazing marketing page done within a few hours. 
+            Vercels templates are ready to deploy immediately with the latest version dependencies. Your frontend team can have a amazing marketing page done within a few hours. 
             There is a large number of templates to pick from and the majority of the templates are compatible with UI Libraries. This will facilitate the development process for your engineers and allow your page to quickly reach the market!  
             </Text>
           </Card.Body>
