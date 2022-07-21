@@ -74,7 +74,7 @@ export default function Recommendation() {
 
             </Text>
             <Text style = {{marginTop: '1rem'}}>
-              Using Vercel, you can create a dynamic, single page application using one of the many templates available on Vercel! 
+              Using Vercel, you can create a dynamic, single page application using one of the many templates available on Vercel! You can use a template to create a awesome page to promote your NFT and use the github integration to easily deploy your application by linking the repository on your account! As a developer myself, I can see the value of being able to deploy your application quickly and have the resources available that will make building your application super simple.  
             </Text>
           </Card.Body>
           <Card.Divider />
