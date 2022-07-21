@@ -28,7 +28,7 @@ export default function Reflection() {
             a valuable addition to the team at Vercel. 
             </Text>
             <Text style = {{marginTop: '1rem'}}>
-              I want to be able to be more hands on the technical side of this role and be able to present products to prospects and help onboard them once they become paying clients. 
+              I want to be able to use my technical skills to bring new features to life at Vercel and use my strong communication and interpersonal skills to bring on new customers to the platform.  
             </Text>
           </Card.Body>
           <Card.Divider />
@@ -69,6 +69,13 @@ export default function Reflection() {
         </Card>
       </Grid>
     </Grid.Container>
+    <h6  style ={{ marginTop: '1rem', marginLeft: '1rem'}}>Book Links: 
+      <a href ="https://books-library.net/files/books-library.online-02171342Go0P8.pdf" target="_blank" rel="noreferrer" > The Four Agreements</a>,
+      
+       <a href="https://www.scribd.com/book/170422428/Selling-101-What-Every-Successful-Sales-Professional-Needs-to-Know" target="_blank" rel="noreferrer" > Selling 101</a> 
+       
+       </h6>
+    
     </div>
   )
 }

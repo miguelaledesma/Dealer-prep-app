@@ -8,7 +8,7 @@ const nextConfig = {
     return [
       {
         source: '/contact', 
-        destination: 'https://vercel.com/hello-vercel', 
+        destination: 'https://vercel.com/customers', 
         permanent: true,
       }
     ]

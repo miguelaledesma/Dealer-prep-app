@@ -55,7 +55,7 @@ export default function Recommendation() {
 
             <Text style = {{marginTop: '1rem'}}>
             Vercels templates are ready to deploy immediately with the latest version dependencies. Your frontend team can have a amazing marketing page done within a few hours. 
-            There is a large number of templates to pick from and the majority of the templates are compatible with UI Libraries. This will facilitate the development process for your engineers and allow your page to quickly reach the market!  
+            There is a large number of templates from popular Javascript Frameworks. This will facilitate the development process for your engineers and allow your page to quickly reach the market!  You can also extend and automate the companies work flow for the project by integrating from popular messaging tools like Slack and create backends with databases like MongoDB to capture/store customer data.  
             </Text>
           </Card.Body>
           <Card.Divider />
@@ -76,7 +76,7 @@ export default function Recommendation() {
 
             </Text>
             <Text style = {{marginTop: '1rem'}}>
-              Using Vercel, you can create a dynamic, single page application using one of the many templates available on Vercel! You can use a template to create a awesome page to promote your NFT and use the github integration to easily deploy your application by linking the repository on your account! As a developer myself, I can see the value of being able to deploy your application quickly and have the resources available that will make building your application super simple.  
+              Using Vercel, you can create a dynamic, single page applications using one of many templates available on Vercel! You can use a template to create a awesome page to promote your NFT and use the github integration to easily deploy your application by linking the repository on your account! In the NFT space, presentation and uniquness is important. Vercel allows NFT creators to focus on their design and facilitates the deployment process to reach artists and customers quickly. 
             </Text>
           </Card.Body>
           <Card.Divider />

@@ -1,9 +1,23 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Router from 'next/router'
+import React from 'react'
+import { useEffect } from 'react'
+
 
 
 
 export default function Contact() {
+
+
+useEffect(() => {
+   const {pathname} = Router
+   if(pathname == '/contact' ){
+       Router.push('https://vercel.com/customers')
+   }
+ });
+
+
   return (
     <div>
       <Head>
