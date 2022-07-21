@@ -13,7 +13,7 @@ export default function Contact() {
 useEffect(() => {
    const {pathname} = Router
    if(pathname == '/contact' ){
-       Router.push('https://vercel.com/customers')
+       Router.push('/')
    }
  });
 
