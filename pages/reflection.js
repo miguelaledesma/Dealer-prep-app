@@ -13,11 +13,11 @@ export default function Reflection() {
       </Head>
 
       
-      <h1 style ={{ marginTop: '1rem', marginLeft: '1rem'}}>Reflection on Past Experience: </h1>
+      <h1 style ={{ marginTop: '1rem', marginLeft: '0rem'}}>Reflection on Past Experience: </h1>
 
-      <Grid.Container gap={2}>
-      <Grid sm={12} md={5}>
-        <Card >
+      <Grid.Container gap={0} >
+      <Grid sm={12} md={5} css={{ p: "$2",m : "$0", mw: "600px" }}>
+        <Card>
           <Card.Header>
             <Text b>What I am looking to learn more of: </Text>
           </Card.Header>

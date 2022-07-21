@@ -13,9 +13,9 @@ export default function Email() {
       </Head>
 
       
-      <h1 style ={{ marginTop: '1rem', marginLeft: '1rem'}}> Email Responses:</h1>
+      <h1 style ={{ marginTop: '1rem', marginLeft: '0rem'}}> Email Responses:</h1>
 
-      <Card style ={{ marginTop: '1rem'}} css={{ p: "$2",m : "$2 ", mw: "600px" }}>
+      <Card style ={{ marginTop: '1rem'}} css={{ p: "$2",m : "$0", mw: "600px" }}>
       <Card.Header>
         <img
           alt="googlelogo"

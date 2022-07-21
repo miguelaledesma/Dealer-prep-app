@@ -14,9 +14,9 @@ export default function Recommendation() {
       </Head>
 
       
-      <h1 style ={{ marginTop: '1rem', marginLeft: '1rem'}}>Personal Recommendations</h1>
+      <h1 style ={{ marginTop: '1rem', marginLeft: '0rem'}}>Personal Recommendations</h1>
 
-      <Grid.Container gap={2}>
+      <Grid.Container gap={0}>
       <Grid sm={12} md={5}>
         <Card >
           <Card.Header>
