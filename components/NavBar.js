@@ -78,7 +78,7 @@ const Navbar = () => {
   return (
     <Nav>
     
-     <Logo href="">
+     <Logo href="/">
         Interview<span>Homework</span>
       </Logo>
       <Hamburger onClick={() => setIsOpen(!isOpen)}>

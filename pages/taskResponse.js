@@ -70,6 +70,49 @@ export default function Task() {
       </Card>
     </Container>
       </div> 
+    <div >
+
+      <h2 style ={{ marginTop: '1rem', marginLeft: '0rem'}}>Things I least like: </h2>
+      </div>
+      <div style ={{marginTop: '2rem'}}> 
+      <Container>
+      <Card style = {{backgroundColor: 'black'}}>
+        <Card.Body>
+          
+            <Text h6 size={15} color="white" css={{ m: 0 }}>
+            Research and organize notes to ensure Account Executives are prepared for calls
+            </Text>
+          
+        </Card.Body>
+      </Card>
+    </Container>
+      </div> 
+      <div style ={{marginTop: '2rem'}}> 
+      <Container>
+      <Card style = {{backgroundColor: 'black'}}>
+        <Card.Body>
+          
+            <Text h6 size={15} color="white" css={{ m: 0 }}>
+            Identify the types of prospect (agency, freelancer, executive) and respond accordingly
+            </Text>
+          
+        </Card.Body>
+      </Card>
+    </Container>
+      </div> 
+      <div style ={{marginTop: '2rem'}}> 
+      <Container>
+      <Card style = {{backgroundColor: 'black'}}>
+        <Card.Body>
+          
+            <Text h6 size={15} color="white" css={{ m: 0 }}>
+            Work with the Team to make sure email tone is consistent with the Vercel brand
+            </Text>
+          
+        </Card.Body>
+      </Card>
+    </Container>
+      </div> 
     </div>
   )
 }

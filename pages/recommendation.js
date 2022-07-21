@@ -62,8 +62,29 @@ export default function Recommendation() {
           </Card.Footer>
         </Card>
       </Grid>
+      <Grid sm={12} md={5}>
+        <Card >
+          <Card.Header>
+            <Text b>An NFT </Text>
+          </Card.Header>
+          <Card.Divider />
+          <Card.Body css={{ py: "$10" }}>
+            <Text>
+            The NFT is a rapidly growing space on the internet right now. 
+
+            </Text>
+            <Text style = {{marginTop: '1rem'}}>
+              Using Vercel, you can create a dynamic, single page application using one of the many templates available on Vercel! 
+            </Text>
+          </Card.Body>
+          <Card.Divider />
+          <Card.Footer>
+            
+          </Card.Footer>
+        </Card>
+      </Grid>
     </Grid.Container>
-    <h5 style ={{ marginTop: '1rem', marginLeft: '1rem'}}> ** I am not too experienced in how a service like Vercel will benefit the NFT space ** </h5>
+    {/* <h5 style ={{ marginTop: '1rem', marginLeft: '1rem'}}> ** I am not too experienced in how a service like Vercel will benefit the NFT space ** </h5> */}
     </div>
   )
 }
