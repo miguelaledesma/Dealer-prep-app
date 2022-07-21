@@ -15,7 +15,7 @@ export default function Reflection() {
       
       <h1 style ={{ marginTop: '1rem', marginLeft: '0rem'}}>Reflection on Past Experience: </h1>
 
-      <Grid.Container gap={0} >
+      <Grid.Container gap={1} >
       <Grid sm={12} md={5} css={{ p: "$2",m : "$0", mw: "600px" }}>
         <Card>
           <Card.Header>
