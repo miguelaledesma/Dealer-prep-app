@@ -3,7 +3,76 @@ import Image from 'next/image'
 import { Container, Card, Row, Text } from '@nextui-org/react'
 
 
+
+
+const positiveTask = [
+  {
+    task: 'Analyze sales inquiries to help spot trends in needs'
+  }, 
+  {
+    task: ' Create queries to look at a prospects typical Vercel usage', 
+  },
+  {
+    task: 'Hop on a Zoom call to do a product demo'
+  }, 
+  {
+    task: 'Empathize with customers and find ways to continually improve the day-to-day workflow for converting leads'
+  }
+]
+
+const dislikeTask = [
+  {
+    task: 'Research and organize notes to ensure Account Executives are prepared for calls'
+  }, 
+  {
+    task: 'Identify the types of prospect (agency, freelancer, executive) and respond accordingly ', 
+  },
+  {
+    task: 'Work with the Team to make sure email tone is consistent with the Vercel brand'
+  }, 
+
+]
+
+
+
+
+
 export default function Task() {
+
+
+  const items = positiveTask.map((item) => (
+    // eslint-disable-next-line react/jsx-key
+    <div style ={{marginTop: '2rem'}}> 
+        <Container fluid >
+        <Card style = {{backgroundColor: 'black'}}>
+          <Card.Body key = {item.task}>
+              <Text h6 size={15} color="white" css={{ m: 0 }}>
+              {item.task}
+              </Text>
+          </Card.Body>
+        </Card>
+      </Container>
+        </div> 
+  
+  ))
+
+  const dislikeItem = dislikeTask.map((item) => (
+    // eslint-disable-next-line react/jsx-key
+    <div style ={{marginTop: '2rem'}}> 
+        <Container fluid >
+        <Card style = {{backgroundColor: 'black'}}>
+          <Card.Body key = {item.task}>
+              <Text h6 size={15} color="white" css={{ m: 0 }}>
+              {item.task}
+              </Text>
+          </Card.Body>
+        </Card>
+      </Container>
+        </div> 
+  
+  ))
+
+
   return (
     <div>
       <Head>
@@ -16,103 +85,21 @@ export default function Task() {
       </div>
         
 
-      <div style ={{marginTop: '2rem'}}> 
-      <Container fluid >
-      <Card style = {{backgroundColor: 'black'}}>
-        <Card.Body>
-          
-            <Text h6 size={15} color="white" css={{ m: 0 }}>
-            Analyze sales inquiries to help spot trends in needs
-            </Text>
-          
-        </Card.Body>
-      </Card>
-    </Container>
-      </div> 
+      <div>
+        {items}
+      </div>
 
-      <div style ={{marginTop: '2rem'}}> 
-      <Container>
-      <Card style = {{backgroundColor: 'black'}}>
-        <Card.Body>
-          
-            <Text h6 size={15} color="white" css={{ m: 0 }}>
-            Create queries to look at a prospects typical Vercel usage
-            </Text>
-          
-        </Card.Body>
-      </Card>
-    </Container>
-      </div> 
-      <div style ={{marginTop: '2rem'}}> 
-      <Container>
-      <Card style = {{backgroundColor: 'black'}}>
-        <Card.Body>
-          
-            <Text h6 size={15} color="white" css={{ m: 0 }}>
-            Hop on a Zoom call to do a product demo
-            </Text>
-          
-        </Card.Body>
-      </Card>
-    </Container>
-      </div> 
-
-      <div style ={{marginTop: '2rem'}}> 
-      <Container>
-      <Card style = {{backgroundColor: 'black'}}>
-        <Card.Body>
-          
-            <Text h6 size={15} color="white" css={{ m: 0 }}>
-            Empathize with customers and find ways to continually improve the day-to-day workflow for converting leads
-            </Text>
-          
-        </Card.Body>
-      </Card>
-    </Container>
-      </div> 
+     
     <div>
 
       <h2 style ={{ marginTop: '1rem', marginLeft: '1rem'}}>Things I least like: </h2>
+
+      <div>
+        {dislikeItem}
       </div>
-      <div style ={{marginTop: '2rem'}}> 
-      <Container>
-      <Card style = {{backgroundColor: 'black'}}>
-        <Card.Body>
-          
-            <Text h6 size={15} color="white" css={{ m: 0 }}>
-            Research and organize notes to ensure Account Executives are prepared for calls
-            </Text>
-          
-        </Card.Body>
-      </Card>
-    </Container>
-      </div> 
-      <div style ={{marginTop: '2rem'}}> 
-      <Container>
-      <Card style = {{backgroundColor: 'black'}}>
-        <Card.Body>
-          
-            <Text h6 size={15} color="white" css={{ m: 0 }}>
-            Identify the types of prospect (agency, freelancer, executive) and respond accordingly
-            </Text>
-          
-        </Card.Body>
-      </Card>
-    </Container>
-      </div> 
-      <div style ={{marginTop: '2rem'}}> 
-      <Container>
-      <Card style = {{backgroundColor: 'black'}}>
-        <Card.Body>
-          
-            <Text h6 size={15} color="white" css={{ m: 0 }}>
-            Work with the Team to make sure email tone is consistent with the Vercel brand
-            </Text>
-          
-        </Card.Body>
-      </Card>
-    </Container>
-      </div> 
+
+      </div>
+    
     </div>
   )
 }
