@@ -15,9 +15,9 @@ export default function Home() {
     <article id="welcome-section">
 
         <section>
-            <h1> Welcome to my Next.js App &#x1F44B;</h1>
-  
+            <h1 style = {{fontSize: '48px'}}> Welcome to my Interview Take Home Project &#x1F44B;</h1>
         </section>
+        
 
         <section>
             <h2> My Name is Miguel Ledesma and I hope you like my Next.js App!</h2>
