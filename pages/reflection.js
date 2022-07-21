@@ -1,7 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from "next/head";
+import Image from "next/image";
 import { Card, Grid, Text, Button, Row, Divider } from "@nextui-org/react";
-
 
 export default function Reflection() {
   return (
@@ -12,70 +11,91 @@ export default function Reflection() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      
-      <h1 style ={{ marginTop: '1rem', marginLeft: '1rem'}}>Reflection on Past Experience: </h1>
+      <h1 style={{ marginTop: "1rem", marginLeft: "1rem" }}>
+        Reflection on Past Experience:{" "}
+      </h1>
 
-      <Grid.Container gap={1} style ={{width: '100%'}}>
-      <Grid sm={12} md={5} >
-        <Card>
-          <Card.Header>
-            <Text b>What I am looking to learn more of: </Text>
-          </Card.Header>
-          <Card.Divider />
-          <Card.Body css={{ py: "$10" }}>
-            <Text>
-            I am eager to continue improving my engineering skills to become a well-rounded software engineer and combine that with my background in sales to be 
-            a valuable addition to the team at Vercel. 
-            </Text>
-            <Text style = {{marginTop: '1rem'}}>
-              I want to be able to use my technical skills to bring new features to life at Vercel and use my strong communication and interpersonal skills to bring on new customers to the platform.  
-            </Text>
-          </Card.Body>
-          <Card.Divider />
-          <Card.Footer>
-            
-          </Card.Footer>
-        </Card>
-      </Grid>
-      <Grid sm={12} md={5}>
-        <Card >
-          <Card.Header>
-            <Text b>Biggest Impression: </Text>
-          </Card.Header>
-          <Card.Divider />
-          <Card.Body css={{ py: "$10" }}>
-            <Text>
-              I do not have a sales article, guide or lighting talk that really left a huge impression on me.
-              There are two books that really helped me floursih in my sales career: 
-              The Four Agreements by Don Miguel Ruiz and Selling 101 by Zig Ziglar  
-            </Text>
-            <Divider/> 
-            <Text style = {{marginTop: '1rem'}}>
-              These books really helped me gain the confidence I needed early in my sales career to grow into the Professional, well-rounded salesperson I am today. The Four Agreements taught me 
-              how to to not take things personally, being confident and impeccable with my word and always striving to do my best. 
-            </Text>
+      <Grid.Container gap={1} style={{ width: "100%" }}>
+        <Grid sm={12} md={5}>
+          <Card>
+            <Card.Header>
+              <Text b>What I am looking to learn more of: </Text>
+            </Card.Header>
+            <Card.Divider />
+            <Card.Body css={{ py: "$10" }}>
+              <Text>
+                I am eager to continue improving my engineering skills to become
+                a well-rounded software engineer and combine that with my
+                background in sales to be a valuable addition to the team at
+                Vercel.
+              </Text>
+              <Text style={{ marginTop: "1rem" }}>
+                I want to be able to use my technical skills to bring new
+                features to life at Vercel and use my strong communication and
+                interpersonal skills to bring on new customers to the platform.
+              </Text>
+            </Card.Body>
+            <Card.Divider />
+            <Card.Footer></Card.Footer>
+          </Card>
+        </Grid>
+        <Grid sm={12} md={5}>
+          <Card>
+            <Card.Header>
+              <Text b>Biggest Impression: </Text>
+            </Card.Header>
+            <Card.Divider />
+            <Card.Body css={{ py: "$10" }}>
+              <Text>
+                I do not have a sales article, guide or lighting talk that
+                really left a huge impression on me. There are two books that
+                really helped me floursih in my sales career: The Four
+                Agreements by Don Miguel Ruiz and Selling 101 by Zig Ziglar
+              </Text>
+              <Divider />
+              <Text style={{ marginTop: "1rem" }}>
+                These books really helped me gain the confidence I needed early
+                in my sales career to grow into the Professional, well-rounded
+                salesperson I am today. The Four Agreements taught me how to to
+                not take things personally, being confident and impeccable with
+                my word and always striving to do my best.
+              </Text>
 
-            <Divider/> 
-            <Text style = {{marginTop: '1rem'}}>
-            I was inspired by Selling 101 to consider every prospective customer as a stage. If a prospect found my presentation amazing, the possibility of converting a prospect to 
-            a client would significatly rise. This book taught me the importance of actively listening to prospects and how to prepare my mind to envision the result I wanted from 
-            my sales presentations. 
-            </Text>
-          </Card.Body>
-          <Card.Divider />
-          <Card.Footer>
-            
-          </Card.Footer>
-        </Card>
-      </Grid>
-    </Grid.Container>
-    <h6  style ={{ marginTop: '1rem', marginLeft: '1rem'}}>Book Links: 
-      <a href ="https://books-library.net/files/books-library.online-02171342Go0P8.pdf" target="_blank" rel="noreferrer" > The Four Agreements</a>,
-      
-       <a href="https://www.scribd.com/book/170422428/Selling-101-What-Every-Successful-Sales-Professional-Needs-to-Know" target="_blank" rel="noreferrer" > Selling 101</a> 
-       
-       </h6>
-    
+              <Divider />
+              <Text style={{ marginTop: "1rem" }}>
+                I was inspired by Selling 101 to consider every prospective
+                customer as a stage. If a prospect found my presentation
+                amazing, the possibility of converting a prospect to a client
+                would significatly rise. This book taught me the importance of
+                actively listening to prospects and how to prepare my mind to
+                envision the result I wanted from my sales presentations.
+              </Text>
+            </Card.Body>
+            <Card.Divider />
+            <Card.Footer></Card.Footer>
+          </Card>
+        </Grid>
+      </Grid.Container>
+      <h6 style={{ marginTop: "1rem", marginLeft: "1rem" }}>
+        Book Links:
+        <a
+          href="https://books-library.net/files/books-library.online-02171342Go0P8.pdf"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}
+          The Four Agreements
+        </a>
+        ,
+        <a
+          href="https://www.scribd.com/book/170422428/Selling-101-What-Every-Successful-Sales-Professional-Needs-to-Know"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}
+          Selling 101
+        </a>
+      </h6>
     </div>
-  )
+  );
 }

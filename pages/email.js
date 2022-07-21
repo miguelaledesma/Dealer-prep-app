@@ -1,7 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
+import Head from "next/head";
+import Image from "next/image";
 import { Card, Grid, Text, Link } from "@nextui-org/react";
-
 
 export default function Email() {
   return (
@@ -12,44 +11,50 @@ export default function Email() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      
-      <h1 style ={{ marginTop: '1rem', marginLeft: '1rem'}}> Email Responses:</h1>
+      <h1 style={{ marginTop: "1rem", marginLeft: "1rem" }}>
+        {" "}
+        Email Responses:
+      </h1>
 
-      <Card style ={{ marginTop: '1rem'}} css={{ p: "$2",m : "$0", mw: "600px" }}>
-      <Card.Header>
-        <img
-          alt="googlelogo"
-          src="https://img.icons8.com/office/344/google-logo.png"
-          width="34px"
-          height="34px"
-        />
-        <Grid.Container css={{ pl: "$6" }}>
-          <Grid xs={12}>
-            <Text h4 css={{ lineHeight: "$xs" }}>
-            Practice Email Responses
-            </Text>
-          </Grid>
-          <Grid xs={12}>
-            <Text css={{ color: "$accents8" }}>Answers: </Text>
-          </Grid>
-        </Grid.Container>
-      </Card.Header>
-      <Card.Body css={{ py: "$2" }}>
-        <Text>
-          Please click the link below to visit a Google Doc to view my responses to the sample emails 😎
-        </Text>
-      </Card.Body>
-      <Card.Footer>
-        <Link
-          icon
-          color="primary"
-          target="_blank"
-          href="https://docs.google.com/document/d/1bSxbxkUy7mfZ7JJa8UOcdi9jFkkSodtrBH9JXogqJFc/edit?usp=sharing"
-        >
-          Visit Google Docs
-        </Link>
-      </Card.Footer>
-    </Card>
+      <Card
+        style={{ marginTop: "1rem" }}
+        css={{ p: "$2", m: "$0", mw: "600px" }}
+      >
+        <Card.Header>
+          <img
+            alt="googlelogo"
+            src="https://img.icons8.com/office/344/google-logo.png"
+            width="34px"
+            height="34px"
+          />
+          <Grid.Container css={{ pl: "$6" }}>
+            <Grid xs={12}>
+              <Text h4 css={{ lineHeight: "$xs" }}>
+                Practice Email Responses
+              </Text>
+            </Grid>
+            <Grid xs={12}>
+              <Text css={{ color: "$accents8" }}>Answers: </Text>
+            </Grid>
+          </Grid.Container>
+        </Card.Header>
+        <Card.Body css={{ py: "$2" }}>
+          <Text>
+            Please click the link below to visit a Google Doc to view my
+            responses to the sample emails 😎
+          </Text>
+        </Card.Body>
+        <Card.Footer>
+          <Link
+            icon
+            color="primary"
+            target="_blank"
+            href="https://docs.google.com/document/d/1bSxbxkUy7mfZ7JJa8UOcdi9jFkkSodtrBH9JXogqJFc/edit?usp=sharing"
+          >
+            Visit Google Docs
+          </Link>
+        </Card.Footer>
+      </Card>
     </div>
-  )
+  );
 }

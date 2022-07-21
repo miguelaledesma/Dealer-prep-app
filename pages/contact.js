@@ -1,24 +1,17 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Router from 'next/router'
-import React from 'react'
-import { useEffect } from 'react'
-import { Container, Card, Row, Text } from '@nextui-org/react'
-
-
+import Head from "next/head";
+import Image from "next/image";
+import Router from "next/router";
+import React from "react";
+import { useEffect } from "react";
+import { Container, Card, Row, Text } from "@nextui-org/react";
 
 export default function Contact() {
-
-
-useEffect(() => {
-   const {pathname} = Router
-   if(pathname == '/contact' ){
-       Router.push('/')
-   }
- });
-
-
-
+  useEffect(() => {
+    const { pathname } = Router;
+    if (pathname == "/contact") {
+      Router.push("/");
+    }
+  });
 
   return (
     <div>
@@ -28,8 +21,7 @@ useEffect(() => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      
       <h1>Contact Temporarily Redirecting!</h1>
     </div>
-  )
+  );
 }

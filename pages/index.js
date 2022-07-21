@@ -1,7 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Navbar from '../components/NavBar'
-
+import Head from "next/head";
+import Image from "next/image";
+import Navbar from "../components/NavBar";
 
 export default function Home() {
   return (
@@ -12,22 +11,25 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    <article id="welcome-section">
-
+      <article id="welcome-section">
         <section>
-            <h1 style = {{fontSize: '48px'}}> Welcome to my Interview Take Home Project &#x1F44B;</h1>
+          <h1 style={{ fontSize: "48px" }}>
+            {" "}
+            Welcome to my Interview Take Home Project &#x1F44B;
+          </h1>
         </section>
-        
 
         <section>
-            <h2> My Name is Miguel Ledesma and I hope you like my Next.js App!</h2>
-                <ul className="about-me-lists">
-                  <li>Click through the navigation to view my responses</li>
-                  <li>This Next.js Application is also Mobile Friendly</li>
-                </ul>
-          </section>
-
-    </article>
+          <h2>
+            {" "}
+            My Name is Miguel Ledesma and I hope you like my Next.js App!
+          </h2>
+          <ul className="about-me-lists">
+            <li>Click through the navigation to view my responses</li>
+            <li>This Next.js Application is also Mobile Friendly</li>
+          </ul>
+        </section>
+      </article>
     </>
-  )
+  );
 }
