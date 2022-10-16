@@ -87,18 +87,6 @@ const Navbar = () => {
         <Link href="/shopperTips" passHref>
           <MenuLink href="">Shopper Tips</MenuLink>
         </Link>
-        {/* <Link href="/reflection" passHref>
-          <MenuLink href="">Reflection</MenuLink>
-        </Link>
-        <Link href="/email" passHref>
-          <MenuLink href="">Email Response</MenuLink>
-        </Link>
-        <Link href="/recommendation" passHref>
-          <MenuLink href="">Recommendation</MenuLink>
-        </Link>
-        <Link href="/contact" passHref>
-          <MenuLink href="">Contact</MenuLink>
-        </Link> */}
       </Menu>
     </Nav>
   );

@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import Router from "next/router";
 import React from "react";
 import { useEffect } from "react";
