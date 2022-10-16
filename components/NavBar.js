@@ -73,7 +73,7 @@ const Navbar = () => {
   return (
     <Nav>
       <Logo href="/">
-        Interview<span>Homework</span>
+        New Car <span>Prep</span>
       </Logo>
       <Hamburger onClick={() => setIsOpen(!isOpen)}>
         <span />
@@ -84,10 +84,10 @@ const Navbar = () => {
         <Link href="/" passHref>
           <MenuLink href="">Home</MenuLink>
         </Link>
-        <Link href="/taskResponse" passHref>
-          <MenuLink href="">PA Task</MenuLink>
+        <Link href="/shopperTips" passHref>
+          <MenuLink href="">Shopper Tips</MenuLink>
         </Link>
-        <Link href="/reflection" passHref>
+        {/* <Link href="/reflection" passHref>
           <MenuLink href="">Reflection</MenuLink>
         </Link>
         <Link href="/email" passHref>
@@ -98,7 +98,7 @@ const Navbar = () => {
         </Link>
         <Link href="/contact" passHref>
           <MenuLink href="">Contact</MenuLink>
-        </Link>
+        </Link> */}
       </Menu>
     </Nav>
   );
