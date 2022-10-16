@@ -15,7 +15,3 @@ npm run dev
 # or
 yarn dev
 ```
-
-## Deployed on Vercel
-
-Checkout my Deployed application [Interview Application](https://interview-nextjs-app.vercel.app/)
