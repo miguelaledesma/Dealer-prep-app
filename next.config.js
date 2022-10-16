@@ -4,15 +4,15 @@ const nextConfig = {
   compiler: {
     styledComponents: true,
   },
-  redirects: async()=>{
+  redirects: async () => {
     return [
       {
-        source: '/contact', 
-        destination: '/', 
+        source: "/contact",
+        destination: "/",
         permanent: true,
-      }
-    ]
-  }
-}
+      },
+    ];
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

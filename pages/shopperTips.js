@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+
 import { Container, Card, Row, Text } from "@nextui-org/react";
 
 const BeforeVisiting = [
