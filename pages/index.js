@@ -27,11 +27,11 @@ export default function Home() {
           <br />
           <div style={{ textAlign: "center" }}>
             <Link href="/shopperTips" passHref>
-              <button class="learn-more">
-                <span class="circle" aria-hidden="true">
-                  <span class="icon arrow"></span>
+              <button className="learn-more">
+                <span className="circle" aria-hidden="true">
+                  <span className="icon arrow"></span>
                 </span>
-                <span class="button-text">Get Started</span>
+                <span className="button-text">Get Started</span>
               </button>
             </Link>
           </div>
