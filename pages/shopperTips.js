@@ -22,7 +22,7 @@ const BeforeVisiting = [
 
 const AtTheDealerShip = [
   {
-    task: "Before going on a test drive, take a look around at the dealership. Access if this is a place you want to spend your money at",
+    task: "Before going on a test drive, take a look around at the dealership. Assess if this is a place you want to spend your money at",
   },
   {
     task: "Idenitfy the salesperson you talked to on the phone or via email. This is the person you want to ask all your questions too",
@@ -32,6 +32,8 @@ const AtTheDealerShip = [
   },
   {
     task: "Once you are on the test drive, focus on driving. Remember you did your homework on the car features, ask some questions about features to the salesperson to see if they are being honest ",
+
+    task: `Ultimately, make sure you actually like the car. Ask yourself, "did the salesperson give me a reason to purchase this car here rather then some other store?"`,
   },
 ];
 
